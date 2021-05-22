@@ -11,9 +11,7 @@ const firebaseConfig = {
   storageBucket: "prada-5d339.appspot.com",
   messagingSenderId: "514379101865",
      appId: "1:514379101865:web:f8fddd7c1adb579b635bb8"
-  
 };
-      
  // Initialize Firebase
 firebase.initializeApp(firebaseConfig);
     // firebase.analytics();  
@@ -27,8 +25,6 @@ document.addEventListener('DOMContentLoaded', function() {
   M.Collapsible.init(items);
 
 });
-
-
 
 const auth = firebase.auth();
 const db = firebase.firestore()
